@@ -1,4 +1,9 @@
-DROP TABLE employees;
+DROP DATABASE IF EXISTS inti_corp_pretest;
+CREATE DATABASE inti_corp_pretest;
+
+USE inti_corp_pretest;
+
+DROP TABLE IF EXISTS employees;
 
 CREATE TABLE employees (
   id INT PRIMARY KEY AUTO_INCREMENT,
